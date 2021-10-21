@@ -8,6 +8,7 @@ AllCops:
     - 'config/**/*'
     - bin/**/*
     - spec/spec_helper.rb
+    - spec/**/*
 
 Layout/LineLength:
   Enabled: true
