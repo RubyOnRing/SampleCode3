@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This sample show you how feature testing works.
 
-Things you may want to cover:
+You can see demo at [Youtube](https://youtu.be/WXjSNLmJtI8)
 
-* Ruby version
+- With selenium driver, the testing will open browser and do action then check element.
+- Without selenium driver, it run under background like headless and check element also.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The theme used on this example: [CoreUI](https://coreui.io/)
