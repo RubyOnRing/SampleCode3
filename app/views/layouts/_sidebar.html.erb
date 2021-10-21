@@ -10,8 +10,8 @@
   <ul class="c-sidebar-nav">
     <li class="c-sidebar-nav-title">Management</li>
     <li class="c-sidebar-nav-item">
-      <%= link_to '#', 'data-turbolinks': false,
-                  class: "c-sidebar-nav-link actived"  do%>
+      <%= link_to articles_path, 'data-turbolinks': false,
+                  class: "c-sidebar-nav-link actived #{sidebar_active('articles')}" do %>
         <div class="c-sidebar-nav-icon">
           <i class="fas fa-tachometer-alt"></i>
         </div>

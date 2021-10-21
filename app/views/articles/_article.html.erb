@@ -1,0 +1,5 @@
+<tr>
+  <td><%= article.id %></td>
+  <td><%= link_to article.title, article_path(article) %></td>
+  <td><%= l article.created_at, format: :long %></td>
+</tr>
